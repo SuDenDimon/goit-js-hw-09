@@ -1,3 +1,5 @@
+import SimpleLightbox from "simplelightbox";
+import 'simplelightbox/dist/simple-lightbox.min.css';
 const images = [
     {
       preview:
@@ -86,7 +88,23 @@ const images = [
       )
       .join("");
   }
+  const lightbox = new SimpleLightbox('.gallery a', {
+    captionsData: 'alt',
+    captionDelay: 250,
+  });
   
+
+
+
+
+
+
+
+
+
+
+
+
   // itemGallery.addEventListener("click", handleModalOpen);
   
   // function handleModalOpen(evt) {
