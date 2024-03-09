@@ -93,37 +93,3 @@ const images = [
     captionDelay: 250,
   });
   
-
-
-
-
-
-
-
-
-
-
-
-
-  // itemGallery.addEventListener("click", handleModalOpen);
-  
-  // function handleModalOpen(evt) {
-  //   evt.preventDefault();
-  
-  //   if (!evt.target.classList.contains("gallery-image"))return;
-  
-  //   const currentImage = evt.target.closest(".gallery-image");
-  //   const imageId = currentImage.dataset.source;
-  //   const image = images.find(({ original }) => original === imageId);
-  
-  //   const instance = basicLightbox.create(`
-  //     <div class="modal">
-  //         <img
-  //             src="${image.original}"
-  //             alt="${image.description}"
-  //         />
-  //     </div>
-  //   `);
-  //   instance.show();
-  // }
-    

@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 9 Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
+
 <body>
+    <form class="feedback-form" autocomplete="off">
+        <label for="email"> Email </label>
+        <input placeholder="Type area" type="email" name="email" id="email" autofocus />
+
+        <label for="message">Message</label>
+
+        <textarea name="message" id="message" rows="8"></textarea>
+
+        <button class="form-button" type="submit">Submit</button>
+    </form>
     <script src="./js/2-form.js" type="module"></script>
 </body>
+
 </html>
