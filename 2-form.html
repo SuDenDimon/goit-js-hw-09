@@ -7,18 +7,33 @@
     <title>Form</title>
     <script type="module" crossorigin src="/goit-js-hw-09/2-form.js"></script>
     <link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/modulepreload-polyfill-B5Qt9EMX.js">
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/styles-BbScbVfH.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/styles-BpgLorxR.css">
   </head>
   <body>
    
     <main>
-      <div class="container">
+      <!-- <div class="container">
         <h1 class="main-title">
           Welcome Form
-        </h1>
+        </h1> -->
         <a class="back-link" href="./index.html">Go back</a>
-      </div>
+      <!-- </div> -->
+
+      <form class="feedback-form" autocomplete="off">
+        <label for="email">
+          Email
+          <input type="email" name="email" autofocus />
+        </label>
+        <label for="message">
+          Message
+          <textarea name="message" rows="8"></textarea>
+        </label>
+        <button class="form-button" type="submit">Submit</button>
+      </form>
+      
     </main>
+
+    
 
   </body>
 </html>
